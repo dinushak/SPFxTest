@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spFxTest/SpFxTestWebPart.js",
+      "manifest": "./src/webparts/spFxTest/SpFxTestWebPart.manifest.json",
+      "outputPath": "./dist/sp-fx-test-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "SpFxTestWebPartStrings": "webparts/spFxTest/loc/{locale}.js"
+  }
+}

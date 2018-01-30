@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "sp-fx-test",
+    "libraryId": "06500947-c181-4d8a-b57c-4290896c7860",
+    "environment": "onprem"
+  }
+}
