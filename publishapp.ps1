@@ -1,4 +1,3 @@
-Wtite-Host "Within Script"
 $packagePath = ".\release\sharepoint\solution\sp-fx-test.sppkg"
 $encpassword = convertto-securestring -String $(Password) -AsPlainText -Force
 $cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $(Username), $encpassword
