@@ -1,6 +1,6 @@
 Param(
     [string]$username,
-    [string]$password,
+    [string]$password
 )
 
 $packagePath = ".\release\sharepoint\solution\sp-fx-test.sppkg"
