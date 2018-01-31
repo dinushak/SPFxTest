@@ -1,7 +1,7 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "sp-fx-test-client-side-solution",
+    "name": "SPFXTest",
     "id": "06500947-c181-4d8a-b57c-4290896c7860",
     "version": "1.0.0.0"
   },
