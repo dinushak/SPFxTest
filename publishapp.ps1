@@ -10,7 +10,9 @@ Connect-PnPOnline -Url "https://dinushaonline.sharepoint.com/sites/dev" -Credent
 
 $appExist = Get-PnPApp | ? { $_.Title -eq 'SPFxTest' }
 if ($appExist -ne $null) {	
-    Uninstall-PnPApp -Identity $appExist.Id		
+    Uninstall-PnPApp -Identity $appExist.Id	
+
+    Unpublish-PnPApp -Identity $appExist.Id		
 	Remove-PnPApp -Identity $appExist.Id
 }
 
